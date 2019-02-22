@@ -139,8 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DLinkedList,h.cpp" />
-    <ClCompile Include="LinkedRead.c" />
+    <ClCompile Include="DBLinkedList.c" />
+    <ClCompile Include="DBLInkedListMain.c" />
+    <ClCompile Include="preview_LinkeList.c" />
+    <ClCompile Include="CLinkedList.c" />
+    <ClCompile Include="CLinkedListMain.c" />
+    <ClCompile Include="DLinkedList.h" />
+    <ClCompile Include="ex4.c" />
+    <ClCompile Include="LinkedListMain.c" />
+    <ClCompile Include="LinkedList.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="DBLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

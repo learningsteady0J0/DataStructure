@@ -15,11 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedRead.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DLinkedList,h.cpp">
+    <ClCompile Include="DLinkedList.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedListMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="preview_LinkeList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLInkedListMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
