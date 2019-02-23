@@ -15,28 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <Text Include="EX%28Calculator_BY_Stack%29.txt">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ArrayList.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="point.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NameCard.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayList.h">
+    <ClInclude Include="ArrayBaseStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="point.h">
+    <ClInclude Include="ListBaseStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NameCard.h">
+    <ClInclude Include="CLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayBaseStack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBaseStackMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBaseStack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBaseStackMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatorMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -18,13 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DataStructure03-Array\ArrayList.h" />
+    <ClInclude Include="..\DataStructure03-Array\NameCard.h" />
+    <ClInclude Include="..\DataStructure03-Array\point.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DataStructure03-Array\ArrayList.c" />
+    <ClCompile Include="..\DataStructure03-Array\main.c" />
+    <ClCompile Include="..\DataStructure03-Array\NameCard.c" />
+    <ClCompile Include="..\DataStructure03-Array\point.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{BE598E13-A2B5-483C-85D2-6C5F525CF9B9}</ProjectGuid>
+    <ProjectGuid>{316422A4-63F8-4890-8E55-B1FD88C1BA09}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LinkedList</RootNamespace>
+    <RootNamespace>DataStructure03ArrayList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>DataStructure03-ArraryList</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,17 +149,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ArrayList.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="NameCard.c" />
-    <ClCompile Include="point.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ArrayList.h" />
-    <ClInclude Include="NameCard.h" />
-    <ClInclude Include="point.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
