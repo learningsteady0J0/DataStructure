@@ -20,4 +20,12 @@ BTreeNode * GetRightSubTree(BTreeNode * bt);
 void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub);
 void MakeRightSubTree(BTreeNode * main, BTreeNode * sub);
 
+typedef void VisitFuncPtr(BTData data); // 이진 트리 순회시 방문목적 함수
+
+void PreorderTraverse(BTreeNode * bt , VisitFuncPtr action);
+void InorderTraverse(BTreeNode * bt, VisitFuncPtr action);
+void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action);
+
+void DeleteTree(BTreeNode * bt);
+
 #endif

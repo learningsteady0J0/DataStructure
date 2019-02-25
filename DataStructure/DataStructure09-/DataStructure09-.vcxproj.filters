@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="tree.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="ExpressionTree.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BinaryTree.h">
+    <ClInclude Include="SimpleHeap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExpressionTree.h">
+    <ClInclude Include="UsefulHeap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ListBaseStack.h">
+    <ClInclude Include="priorityQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree.c">
+    <ClCompile Include="SimpleHeap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryTreeMain.c">
+    <ClCompile Include="SimpleHeapMain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExpressionTree.c">
+    <ClCompile Include="UsefulHeap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ListBaseStack.c">
+    <ClCompile Include="UsefulHeapMain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExpressionTreeMian.c">
+    <ClCompile Include="priorityQueue.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="priorityQueueMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Heap_PriorityQueue.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
